@@ -25,4 +25,5 @@ public class PasswordUtil {
 
         return MEDIUM;
     }
+
 }

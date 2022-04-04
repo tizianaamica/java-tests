@@ -11,4 +11,5 @@ public class PaymentRequest {
     public double getAmount() {
         return amount;
     }
+
 }

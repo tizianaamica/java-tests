@@ -8,7 +8,7 @@ public class PaymentProcessor {
         this.paymentGateway = paymentGateway;
     }
 
-    public boolean makePayment(double amount){
+    public boolean makePayment(double amount) {
         PaymentResponse response = paymentGateway.requestPayment(new PaymentRequest(amount));
         if (response.getStatus() == PaymentResponse.PaymentStatus.OK){
             return true;
