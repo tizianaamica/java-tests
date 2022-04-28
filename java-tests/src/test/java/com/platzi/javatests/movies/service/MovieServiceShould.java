@@ -1,6 +1,5 @@
 package com.platzi.javatests.movies.service;
 
-import com.platzi.javatests.movies.model.Genre;
 import com.platzi.javatests.movies.model.Movie;
 import com.platzi.javatests.movies.repository.MovieRepository;
 import org.junit.Before;
